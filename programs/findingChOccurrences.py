@@ -1,8 +1,10 @@
 # Python program to find occurences of charaters in string
-string = "This is python programming"
+# inputString = "This is python programming"
+
+inputString = "This is a test"
 
 occurrenceDict = {}
-def countOccurreces():
+def countOccurreces(string):
     stringList = []
     for ch in string:
         stringList.append(ch.lower())
@@ -16,4 +18,4 @@ def countOccurreces():
             occurrenceDict.update({stringList[i]: count})
     return occurrenceDict
 
-print(countOccurreces())
+print(countOccurreces(inputString))
