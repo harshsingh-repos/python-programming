@@ -28,8 +28,8 @@ def numberList():
 
 # print(numberList())
 # combining all the requirement for numberlist using map
-# print(list(map(getFruitLength, fruits))) 
+print(list(map(getFruitLength, fruits))) 
 # combining all the requirement for numberlist in list comprehension
 # print([getFruitLength(fruit) for fruit in fruits])
 
-print([getFruitLength(fruit) for fruit in fruits if getFruitLength(fruit) >=6])
+# print([getFruitLength(fruit) for fruit in fruits if getFruitLength(fruit) >=6])
