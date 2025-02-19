@@ -12,7 +12,7 @@ def countOccurreces(string):
     for i in range(index):
         if stringList[i] not in occurrenceDict:
             count = 0
-            for j in range(index):
+            for j in range(i ,index):
                 if(stringList[i] == stringList[j]):
                     count +=1
             occurrenceDict.update({stringList[i]: count})
