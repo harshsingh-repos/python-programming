@@ -1,5 +1,6 @@
 # Python program to find occurences of charaters in string
 # inputString = "This is python programming"
+import time
 
 inputString = "This is a test"
 
@@ -12,10 +13,16 @@ def countOccurreces(string):
     for i in range(index):
         if stringList[i] not in occurrenceDict:
             count = 0
-            for j in range(i ,index):
+            for j in range(index):
                 if(stringList[i] == stringList[j]):
                     count +=1
             occurrenceDict.update({stringList[i]: count})
     return occurrenceDict
 
+startTime = time.time()
 print(countOccurreces(inputString))
+time.sleep(2)
+endTime = time.time()
+
+executionTime =  endTime - startTime
+print(f"Execution Time : {executionTime:.2f} seconds")

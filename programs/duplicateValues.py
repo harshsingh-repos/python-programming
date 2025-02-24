@@ -1,3 +1,4 @@
+import time
 # fruits = ["Apple", "Orange", "Banana", "Apple", "Orange", "Watermelon"]
 
 numbers = [1,2,3,4,3,2,1,4,6,7,2]
