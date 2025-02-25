@@ -1,7 +1,7 @@
 # Program to reverse a string without slicing
 string = "This is Python Programming"
 
-def createStringList():
+def createStringList(string):
     return string.split(" ")  
 
 def reverse(listString):
@@ -23,8 +23,8 @@ def reverseString(stringList):
         index -= 1
     return reversed_sentence 
 
-splitString = createStringList()
-print("Original Words:", splitString)
+splitString = createStringList(string)
+print("Original Words List:", splitString)
 
 reversedWordsList = reverse(splitString)
 print("Reversed Words List:", reversedWordsList)

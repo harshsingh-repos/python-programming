@@ -1,4 +1,4 @@
-#program to check palindrome using tradiational approach
+#program to check palindrome 
 import math
 def checkPalindrome(text):
     index  = len(text)

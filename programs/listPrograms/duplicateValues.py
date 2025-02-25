@@ -1,3 +1,5 @@
+#finding duplicate values in a list
+
 import time
 # fruits = ["Apple", "Orange", "Banana", "Apple", "Orange", "Watermelon"]
 
